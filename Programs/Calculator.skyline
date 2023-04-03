@@ -1,0 +1,31 @@
+register("io")
+
+set Addition = Func(x, y) {
+  return x + y;
+};
+
+set Subtraction = Func(x, y) {
+  return x - y;
+};
+
+set Multiplication = Func(x, y) {
+  return x * y;
+};
+
+set Division = Func(x, y) {
+  return x / y;
+};
+
+set MapOfFunc = {
+    "add": Addition,
+    "sub": Subtraction,
+    "mul": Multiplication,
+    "div": Division,
+};
+
+set Main() {
+  set key := io.input("add,sub,mul,div> ", "string", "n");
+  MapOfFunc[key](100, 10)
+};
+
+Main()
