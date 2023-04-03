@@ -1,0 +1,6 @@
+set FuncReturn = Func(x, y) {
+  ret x - y; // same as return, you can also use return
+};
+
+set retval = FuncReturn(10, 20);
+retval
