@@ -1,0 +1,6 @@
+set NewFunction = Func() {
+  (20 - 10);
+};
+
+NewFunction()
+
