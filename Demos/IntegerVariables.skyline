@@ -1,0 +1,11 @@
+set age = 20;
+
+age + 19; // outputs: 39
+age - 19; // outputs: 1
+age / 19; // outputs: 1
+age ** 19; // outputs: 5.24...
+age += 20;  // pl eq
+age *= 20;  // mult eq
+age /= 20;  // div eq
+age == 20; // boolean
+age -= 20; // sub eq
